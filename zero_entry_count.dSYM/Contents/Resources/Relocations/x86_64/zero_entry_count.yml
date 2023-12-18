@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jia-hojian/wkspaces/c_programs/zero_entry_count'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printMatrix, symObjAddr: 0x0, symBinAddr: 0x100003710, symSize: 0x90 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _printMatrix, symObjAddr: 0x0, symBinAddr: 0x100003710, symSize: 0x90 }
+  - { offsetInCU: 0xBD, offset: 0xBD, size: 0x8, addend: 0x0, symName: _createMatrix, symObjAddr: 0x90, symBinAddr: 0x1000037A0, symSize: 0x90 }
+  - { offsetInCU: 0x12B, offset: 0x12B, size: 0x8, addend: 0x0, symName: _getInverse, symObjAddr: 0x120, symBinAddr: 0x100003830, symSize: 0x500 }
+  - { offsetInCU: 0x356, offset: 0x356, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x620, symBinAddr: 0x100003D30, symSize: 0x192 }
+...
